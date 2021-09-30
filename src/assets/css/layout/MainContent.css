@@ -1,0 +1,235 @@
+.main-content{
+    position: absolute;
+    top: 56px;
+    background-color: #eeeeee;
+    height: calc(100% - 56px);
+    width: 100%;
+    padding: 16px 24px;
+    box-sizing: border-box;
+}
+
+
+.selectbox-icon{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('../../img/resouce-img.svg') no-repeat -199px -9px;
+	width: 10px;
+	height: 6px !important;
+}
+
+.datebox-icon{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('../../img/resouce-img.svg') no-repeat -3px -51px;
+	width: 18px;
+	height: 18px !important;
+}
+
+input[type="checkbox"]{
+    height: 16px;
+    width: 16px;
+    box-sizing: border-box;
+    padding: 0px;
+    border: 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+input[type = "checkbox"]{
+    background-color: #fff;
+    width: 16px;
+    height: 16px;
+    -webkit-appearance: none;
+	border: 2px solid #737888;
+	border-radius: 4px;
+    position: relative;
+    margin-top: 5px;
+    cursor: pointer;
+}
+ input:checked{
+    background: url('../../img/resouce-img.svg') no-repeat -196px -52px;
+	width: 16px;
+	height: 16px;
+    border: 0px;
+}
+
+.title-and-function{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.page-title{
+    font-family: Roboto-Bold;
+    font-size: 20px;
+}
+
+.funtions-group{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.number-box input{
+    text-align: right;
+}
+
+.number-box .dx-state-hover{
+    background-color: #fff;
+}
+
+.right-align{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 24px;
+    box-sizing: border-box;
+}
+
+.margin-bot-16{
+     margin-bottom: 14px;
+}
+
+.padding-left-24{
+    padding-left: 24px;
+}
+
+.grid-data{
+    position: relative;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 100%;
+    height: calc(100vh - 150px);
+    border: 1px solid #e0e0e0;
+}
+
+.paging-bar{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 0px;
+    height: 60px;
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+    padding: 10px 16px;
+    box-sizing: border-box;
+}
+
+.paging-function{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.table-option-img{
+    background: url('../../img/resouce-img.svg') no-repeat -242px -26px;
+	width: 20px;
+	height: 20px;
+}
+
+.function-button{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 16%);
+}
+.edit-img{
+    background: url('../../img/resouce-img.svg') no-repeat -291px -26px;
+	width: 18px;
+	height: 20px;
+}
+
+.delete-img{
+    background: url('../../img/resouce-img.svg') no-repeat -170px -26px;
+	width: 20px;
+	height: 20px;
+}
+
+.paging-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+
+.previous-icon-img{
+    background: url('../../img/resouce-img.svg') no-repeat -224px -5px;
+	width: 7px;
+	height: 14px;
+}
+
+.next-icon-img{
+    background: url('../../img/resouce-img.svg') no-repeat -249px -5px;
+	width: 7px;
+	height: 14px;
+}
+
+
+.data-grid thead td{
+    height: 47px;
+}
+
+.data-grid tbody td{
+    height: 49px;
+}
+
+.multi-delete-function{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    height: 36px;
+}
+
+.multi-delete-button{
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    height: 36px;
+    width: 85px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #ef292f;
+    box-sizing: border-box;
+    padding: 0px 16px;
+    cursor: pointer;
+}
+
+.multi-delete-button:hover{
+    background-color: #fee8e7;
+}
+.multi-delete-button:active{
+    background-color: #fdd0ce;
+}
+.dx-row.dx-data-row.dx-state-hover .custom-btn-command {
+    visibility: visible !important;
+    right: 0.1px !important;
+}
+
+.visibility-hidden{
+    visibility: hidden !important;
+}
+
+.custom-column.custom-btn-command{
+    visibility: hidden !important;
+}
+
+td.custom-column.custom-btn-command.dx-hidden-cell{
+    visibility: visible !important;
+}
+
+.dx-sort{
+    visibility: hidden !important;
+}

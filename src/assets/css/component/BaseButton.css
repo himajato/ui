@@ -1,0 +1,71 @@
+.base-button{
+    height: 36px;
+    min-width: 80px;
+    width: fit-content;
+    border: 0px;
+    border-radius: 4px;
+    display: flex;
+    padding: 0px 12px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+.primary-button{
+    font-family: Roboto-Medium;
+    color: #fff;
+    background-color: #ec5504;
+}
+
+.primary-button:hover{
+    background-color: #fa6000;
+}
+
+.primary-button:active{
+    background-color: #e35102;
+}
+
+.secondary-button{
+    background-color: #fff;
+    border: 1px solid #dadce3;
+    font-family: Roboto-Medium;
+    color: #000;
+}
+
+.secondary-button:hover{
+    background-color: #eff1f6;
+    border: 1px solid #dadce3;
+}
+
+.secondary-button:active{
+    background-color: #e8eaef;
+    color: #171b2a;
+    border: 1px solid #dadce3;
+}
+
+.delete-button{
+    background-color: #ef292f;
+    font-family: Roboto-Medium;
+    color: #fff;
+}
+
+.button-icon{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-left: 8px;
+    height: 24px;
+    width: 24px;
+    fill: #fff;
+}
+
+.add-icon{
+    background-color: #fff;
+    -webkit-mask-image: url('../../img/resouce-img.svg');
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: -196px -28px;
+	width: 16px;
+	height: 16px;
+}

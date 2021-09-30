@@ -1,0 +1,45 @@
+.row-popup-addpunish{
+    display: flex;
+    width: 100%;
+    margin-bottom: 16px;
+    align-items: center;
+    height: 36px;
+}
+
+.width-33-percen{
+    display: flex;
+    width: 33%;
+}
+
+.width-67-percen{
+    display: flex;
+    width: 67%;
+}
+
+.width-42-percen{
+    position: relative;
+    display: flex;
+    width: 42%;
+}
+
+.width-16-percen{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 8px;
+    width: 16%;
+}
+.text-in-input{
+    color: #6E6A67;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    right: 10px;
+}
+
+.minute-input input{
+    text-align: right;
+    padding-right: 45px;
+}
+

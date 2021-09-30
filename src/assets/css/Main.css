@@ -1,0 +1,41 @@
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url('../font/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    src: url('../font/Roboto-Medium.ttf');
+}
+
+@font-face {
+    font-family: Roboto-Thin;
+    src: url('../font/Roboto-Thin.ttf');
+}
+
+@font-face {
+    font-family: Roboto-light;
+    src: url('../font/Roboto-Light.ttf');
+}
+
+body{
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+td[role='gridcell'] {  
+    border-left-style: none !important;
+    border-right-style: none !important;  
+}
+
+td[role='columnheader'] {  
+    border-left-style: none !important;
+    border-right-style: none !important;
+    height: 49px;
+    border-bottom: 1px solid #ddd; 
+}
+
+
+

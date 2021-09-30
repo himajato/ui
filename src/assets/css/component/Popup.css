@@ -1,0 +1,257 @@
+.popup{
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    transition: all .250s ease;
+    opacity: 1;
+    z-index: 5 !important;
+}
+
+.popup-content{
+    background-color: #fff;
+    padding: 24px 0px 16px 24px;
+    position: absolute;
+    height: 190px;
+    width: 415px;
+    border-radius: 6px;
+    left: calc(50% - 207px);
+    top: 80px; 
+    box-sizing: border-box;   
+}
+
+.popup-title{
+    font-size: 24px;
+    font-family: Roboto-Bold;
+}
+
+.close-btn{
+    margin-left: auto;
+    position: relative;
+    height: 36px;
+    width: 36px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.close-btn:hover{
+    position: relative;
+    border-radius: 50%;
+    background-color: #eff1f6;
+}
+
+.close-btn-img{
+    position: relative;
+    top: 12px;
+    background: url('../../img/resouce-img.svg') no-repeat -30px -54px;
+	width: 12px;
+	height: 12px;
+}
+
+.popup-description{
+    font-family: Roboto;
+    padding: 24px 0px;
+}
+
+.popup-buttons{
+    justify-content: flex-end;
+    display: flex;
+    padding-top: 12px;
+    align-items: center;
+    padding-right: 24px;
+}
+
+.popup-add{
+    width: 800px;
+    height: 730px;
+    top: 80px;
+    left: calc(50% - 400px);
+    box-sizing: border-box;
+}
+
+.main-popup-content{
+    max-height: 600px;
+    padding: 16px 24px 0px 0px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.main-popup-content::-webkit-scrollbar{
+    height: 7px;
+    width: 7px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+}
+
+.main-popup-content::-webkit-scrollbar-track-piece{
+    top: 0px;
+}
+
+.main-popup-content::-webkit-scrollbar-thumb{
+    height: 7px;
+    width: 7px;
+    background-color: #9e9e9e;
+    border-radius: 4px;
+}
+.information-row-input{
+    display: flex;
+    height: 36px;
+    align-items: center;
+    margin-bottom: 9px;
+}
+
+.label-input-col{
+    box-sizing: border-box;
+    padding-left: 33px;
+    width: 25%;
+}
+
+.input-col-1{
+    display: flex;
+    box-sizing: border-box;
+    width: 52.5%;
+    padding-right: 24px;
+}
+
+.input-col-2{
+    display: flex;
+    width: 22.5%;
+}
+
+.label-input-col_2{
+    display: flex;
+    width: 70px; 
+    align-items: center
+}
+.width-25-percen{
+    width: 25%;
+}
+.width-50-percen{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.width-75-percen{
+    width: 75%;
+}
+
+.checkbox-container{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox-container input[type="checkbox"]{
+    margin-top: 1px;
+}
+
+.checkbox-container:hover{
+    background-color: #ebebeb;
+    border-radius: 50%;
+
+}
+
+.optional-information{
+    margin-bottom: 16px;
+}
+
+.optional-information-title{
+    font-family: Roboto-Bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.popup-footer{
+    position: absolute;
+    background-color: #fff;
+    left: 0px;
+    bottom: 0px;
+    border-radius: 4px; 
+    padding-left: 0px;
+    width: 100%;
+    height: 68px;
+    border-top: 1px solid #dadce3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 16px 24px;
+    box-sizing: border-box;    
+}
+
+.add-punish-btn{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: #fff;
+    cursor: pointer;
+    color: #ec5504;
+    font-family: Roboto-Medium;
+}
+
+.add-icon-red{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    background-color: #fff;
+}
+
+.addicon-red-img{
+    background-color: #ec5504;
+    -webkit-mask-image: url('../../img/resouce-img.svg');
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: -196px -28px;
+	width: 16px;
+	height: 16px;
+}
+
+.pusnish-grid{
+    width: calc(100% - 33px);
+    box-sizing: border-box;
+    border: 1px solid #e0e0e0
+}
+
+.data-grid-punish .dx-header-row{
+    background-color: #f2f2f2;
+    height: 49px;
+}
+
+.data-grid-punish .dx-row-lines{
+    height: 49px;
+}
+
+.pusnish-grid .dx-gridbase-container{
+    height: 200px;
+}
+.pusnish-grid .dx-datagrid-nodata{
+    background-image: url("../../img/nodata..png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120px;
+}
+
+.input-workshitf-name{
+    height: 34px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    color: #333;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0 ;
+    padding: 7px 9px 8px;
+}
+.input-workshitf-name:hover{
+    border: 1px solid #ec5504;
+}
+
+.input-workshitf-name:focus{
+    border: 1px solid #ec5504;
+}

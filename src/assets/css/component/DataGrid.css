@@ -1,0 +1,32 @@
+.function-button  {
+    display: none;
+}
+
+tr.dx-state-hover .function-button {
+    display: flex;
+}
+.data-grid-custom{
+    max-height: calc(100vh - 150px - 60px);
+}
+
+.data-grid-custom .dx-gridbase-container{
+    height: calc(100vh - 150px - 60px);
+}
+.data-grid-custom .dx-header-row{
+    height: 49px;
+}
+.data-grid-custom .dx-row-lines{
+    height: 49px;
+}
+
+.data-grid td{
+    border-left: none;
+}
+
+.data-grid-container{
+    height: calc(100vh - 150px - 60px);
+    overflow: hidden;
+}
+.data-grid{
+    height: 100%;
+}
